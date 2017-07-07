@@ -196,18 +196,6 @@ nav.navbar-inverse .navbar-brand {
     background: white;
   }
 
-  #dragbar {
-    position: relative;
-    top: -3.5rem;
-    background: #ddd;
-    padding: 0.5rem;
-    text-align: center;
-  }
-
-  #dragbar p {
-    margin-bottom: 0;
-  }
-
   /*
    * Piemenu Styles
    *

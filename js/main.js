@@ -65,26 +65,10 @@ $("#slideshow > div:gt(0)").hide();
     .appendTo('#slideshow');
 },  30000);
 
-//
-// Main Area Draggable
-//
-
-$( ".draggable" ).draggable({
-  containment: "window"
-});
-$( ".draggable" ).draggable({
-  handle: ".dragbar"
-});
-$( ".draggable" ).draggable({
-  opacity: 0.35
-});
-
 
 //
 // Wheel Nav
 //
-
-
 
 // Instantiate Wheel Nav
 
