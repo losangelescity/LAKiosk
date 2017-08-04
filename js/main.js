@@ -108,7 +108,7 @@ $("#piemenu-toggle .btn-city").click(function() {
    if (piemenuState == "local") {
     $("#piemenu-city").animate({top:"23em"}, 1000);
     $("#piemenu-local").animate({top:"6em"}, 1000);
-    $("#main-iframe").attr('src', "3dmap/index.html?level=1&pin=here&xpos=46&ypos=7");
+    $("#main-iframe").attr('src', "3dmap/index.html?level=1&pin=here&xpos=60&ypos=10");
     piemenuState = "city";
   }
 });
