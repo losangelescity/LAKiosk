@@ -551,26 +551,7 @@
 	}
 
 	// validate pin location for "You Are Here" labeling
-	var herePinIcon = "cross";
-
-	// set valid pin locations
-	var validPinLoc = [];
-	validPinLoc[0] = ["2", "60", "40"];
-	validPinLoc[1] = ["1", "90", "30"];
-	validPinLoc[2] = ["1", "46", "7"];
-
-	// get current pin location
-	var currentPinLoc = [level, xpos, ypos];
-
-	// loop through and check if current pin location matches valid pin locations
-	for (var i = 0; i < validPinLoc.length; i++){
-		if ( currentPinLoc[0] == validPinLoc[i][0] &&
-				 currentPinLoc[1] == validPinLoc[i][1] &&
-				 currentPinLoc[2] == validPinLoc[i][2]) {
-			herePinIcon = "here"; // if current location is valid, change pin icon value
-			break;
-		}
-	}
+	var herePinIcon = "here";
 
 	// on document ready
 	document.addEventListener("DOMContentLoaded", function(event) {

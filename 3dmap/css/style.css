@@ -164,10 +164,10 @@ button:focus {
 }
 
 .surroundings {
-	width: 192vmin;
+	width: 200vmin;
 	/* double of mall map */
 	height: 128vmin;
-	margin: -64vmin 0 0 -96vmin;
+	margin: -64vmin 0 0 -101vmin;
 	pointer-events: none;
 	-webkit-transition: opacity 0.8s;
 	transition: opacity 0.8s;
@@ -186,9 +186,9 @@ button:focus {
 }
 
 .levels {
-	width: 96vmin;
+	width: 124vmin;
 	height: 64vmin;
-	margin: -32vmin 0 0 -48vmin;
+	margin: -38vmin 0 0 -66vmin;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform-style: preserve-3d;
@@ -220,8 +220,8 @@ button:focus {
 	line-height: 0;
 	position: absolute;
 	z-index: 100;
-	top: -7em;
-  left: 3.5em;
+	top: -10em;
+  left: 8em;
 	white-space: nowrap;
 	color: #7d7d86;
 	-webkit-transform: rotateZ(45deg) rotateX(-70deg) translateZ(5vmin);
@@ -298,8 +298,8 @@ button:focus {
 /* Other levels */
 
 .level--current ~ .level {
-	-webkit-transform: translateZ(90vmin);
-	transform: translateZ(90vmin);
+	-webkit-transform: translateZ(100vmin);
+	transform: translateZ(100vmin);
 }
 
 .levels--selected-2 .level--1,
@@ -859,49 +859,49 @@ button:focus {
 }
 
 /* Pins for floor 3 */
-.pin--1-1 { top: 46vmin; left: 60vmin; } /* Council Chambers */
-.pin--1-2 { top: 4vmin; left: 43vmin; } /* Mayor's Help Desk */
-.pin--1-3 { top: 8vmin; left: 58vmin; } /* Office of the Mayor */
-.pin--1-4 { top: 8vmin; left: 36vmin; } /* Office of the City Clerk */
-.pin--1-5 { top: 36vmin; left: 8vmin; } /* Office of the City Clerk */
-.pin--1-6 { top: 46vmin; left: 32vmin; } /* Office of the City Clerk */
-.pin--1-7 { top: 4vmin; left: 51vmin; } /* Docent's Desk */
+.pin--1-1 { top: 60vmin; left: 79vmin; } /* Council Chambers */
+.pin--1-2 { top: 6vmin; left: 56vmin; } /* Mayor's Help Desk */
+.pin--1-3 { top: 10vmin; left: 74vmin; } /* Office of the Mayor */
+.pin--1-4 { top: 10vmin; left: 46vmin; } /* Office of the City Clerk */
+.pin--1-5 { top: 48vmin; left: 12vmin; } /* Public Works Offices */
+.pin--1-6 { top: 60vmin; left: 42vmin; } /* Public Works Meeting Room */
+.pin--1-7 { top: 6vmin; left: 66vmin; } /* Docent's Desk */
 
 
 
 /* Pins for floor 4 */
-.pin--2-1 { top: 20vmin; left: 90vmin; } /* CD 1 */
-.pin--2-2 { top: 32vmin; left: 32vmin; } /* CD 2 */
+.pin--2-1 { top: 27vmin; left: 117vmin; } /* CD 1 */
+.pin--2-2 { top: 42vmin; left: 40vmin; } /* CD 2 */
 .pin--2-3 { top: 14vmin; left: 6vmin; } /* CD 3 */
-.pin--2-4 { top: 28vmin; left: 14vmin; } /* CD 4 */
-.pin--2-5 { top: 38vmin; left: 4vmin; } /* CD 5 */
-.pin--2-6 { top: 42vmin; left: 88vmin; } /* CD 6 */
-.pin--2-7 { top: 10vmin; left: 70vmin; } /* CD 7 */
-.pin--2-8 { top: 10vmin; left: 60vmin; } /* CD 8 */
-.pin--2-9 { top: 22vmin; left: 8vmin; } /* CD 9 */
-.pin--2-10 { top: 44vmin; left: 10vmin; } /* CD 10 */
-.pin--2-11 { top: 34vmin; left: 64vmin; } /* CD 11 */
-.pin--2-12 { top: 10vmin; left: 32vmin; } /* CD 12 */
-.pin--2-13 { top: 26vmin; left: 64vmin; } /* CD 13 */
-.pin--2-14 { top: 28vmin; left: 90vmin; } /* CD 14 */
-.pin--2-15 { top: 10vmin; left: 14vmin; } /* CD 15 */
+.pin--2-4 { top: 34vmin; left: 22vmin; } /* CD 4 */
+.pin--2-5 { top: 52vmin; left: 6vmin; } /* CD 5 */
+.pin--2-6 { top: 54vmin; left: 114vmin; } /* CD 6 */
+.pin--2-7 { top: 14vmin; left: 90vmin; } /* CD 7 */
+.pin--2-8 { top: 14vmin; left: 78vmin; } /* CD 8 */
+.pin--2-9 { top: 26vmin; left: 8vmin; } /* CD 9 */
+.pin--2-10 { top: 62vmin; left: 16vmin; } /* CD 10 */
+.pin--2-11 { top: 42vmin; left: 92vmin; } /* CD 11 */
+.pin--2-12 { top: 14vmin; left: 44vmin; } /* CD 12 */
+.pin--2-13 { top: 34vmin; left: 84vmin; } /* CD 13 */
+.pin--2-14 { top: 35vmin; left: 117vmin; } /* CD 14 */
+.pin--2-15 { top: 12vmin; left: 18vmin; } /* CD 15 */
 
 
 /* Pins for floor 10 */
-.pin--3-1 { top: 24vmin; left: 40vmin; } /* Meeting Room 1005 */
-.pin--3-2 { top: 28vmin; left: 20vmin; } /* Meeting Room 1005 */
-.pin--3-3 { top: 26vmin; left: 4vmin; } /* Meeting Room 1005 */
-.pin--3-4 { top: 38vmin; left: 40vmin; } /* Meeting Room 1005 */
-.pin--3-5 { top: 28vmin; left: 47vmin; } /* Meeting Room 1005 */
-.pin--3-6 { top: 38vmin; left: 47vmin; } /* Meeting Room 1005 */
-.pin--3-7 { top: 38vmin; left: 53vmin; } /* Meeting Room 1005 */
-.pin--3-8 { top: 24vmin; left: 54vmin; } /* Meeting Room 1005 */
-.pin--3-9 { top: 28vmin; left: 70vmin; } /* Meeting Room 1005 */
-.pin--3-10 { top: 28vmin; left: 77vmin; } /* Meeting Room 1005 */
-.pin--3-11 { top: 24vmin; left: 90vmin; } /* Meeting Room 1005 */
+.pin--3-1 { top: 30vmin; left: 52vmin; } /* Meeting Room 1005 */
+.pin--3-2 { top: 36vmin; left: 28vmin; } /* Meeting Room 1005 */
+.pin--3-3 { top: 30vmin; left: 6vmin; } /* Meeting Room 1005 */
+.pin--3-4 { top: 46vmin; left: 53vmin; } /* Meeting Room 1005 */
+.pin--3-5 { top: 36vmin; left: 61vmin; } /* Meeting Room 1005 */
+.pin--3-6 { top: 46vmin; left: 61vmin; } /* Meeting Room 1005 */
+.pin--3-7 { top: 46vmin; left: 68vmin; } /* Meeting Room 1005 */
+.pin--3-8 { top: 30vmin; left: 70vmin; } /* Meeting Room 1005 */
+.pin--3-9 { top: 36vmin; left: 90vmin; } /* Meeting Room 1005 */
+.pin--3-10 { top: 36vmin; left: 99vmin; } /* Meeting Room 1005 */
+.pin--3-11 { top: 31vmin; left: 116vmin; } /* Meeting Room 1005 */
 
 /* Pins for floor 27 */
-.pin--4-1 { top: 30vmin; left: 46vmin; } /* Meeting Room 1005 */
+.pin--4-1 { top: 38vmin; left: 60vmin; } /* Meeting Room 1005 */
 
 /* Here Pin */
 /*.pin--here::after {

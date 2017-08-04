@@ -104,12 +104,14 @@ nav.navbar-inverse .navbar-brand {
     left: 0;
     background-image: url(../img/cover.jpg);
     background-size: cover;
+    overflow: hidden;
   }
 
  #cover video {
    object-fit: cover;
    width: 100%;
    height: 100%;
+   transform: rotate(90deg);
  }
 
  /*
